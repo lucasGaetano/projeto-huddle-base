@@ -44,11 +44,36 @@ main{
     border-radius: 50px;
     padding: 15px;
     margin-top: 20px;
-    width: 33%;
+    min-width: 33%;
     transition: 0.5s;
 }
 
 .informations .register-btn:hover{
     color: white;
     background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    justify-content: end;
+    align-content: space-around;
+}
+
+.social i{
+    color: white;
+    font-size: 2.0rem;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 0px 10px;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.social i:hover{
+    color:hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    cursor: pointer;
 }
