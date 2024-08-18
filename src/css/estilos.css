@@ -1,0 +1,8 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
